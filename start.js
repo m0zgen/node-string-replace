@@ -22,4 +22,4 @@ deleteImageTag = deleteImageTag.replace(/\r?\n\n\n|\r/m, imageTag);
 // Example - delete all before *.jpeg)
 let test1 = text.substring(text.indexOf('g)\n')+3).replace(/^\s+|\s+$/g, '');
 
-console.log(deleteImageTag);
+console.log("Before:\n" + text + "\n\nAfter:\n" + deleteImageTag);
