@@ -1,5 +1,6 @@
 // https://regex101.com/
 // https://www.regextester.com/
+// https://www.w3schools.com/jsref/jsref_obj_regexp.asp
 
 let text = "*Lorem ipsum dollar*\n" +
     "\n" +
