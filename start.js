@@ -13,8 +13,8 @@ let text = "*Lorem ipsum dollar*\n" +
 // Copy [image] tag
 let imageTag = text.match(/.*.*g\)/);
 
-// Delete image tag
-var deleteImageTag = text.replace(/!\s*\[im[^>]*\](.*?)\s*g\)/g, "");
+// Delete image tag. Base reg - /!\s*\[im[^>]*\](.*?)\s*g\)/g
+var deleteImageTag = text.replace(/!\s*\[i[^>]*(.*?)\s*g\)/g, "");
 
 // Replase empty strings with tag
 deleteImageTag = deleteImageTag.replace(/\r?\n\n\n|\r/m, imageTag);
