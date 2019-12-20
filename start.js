@@ -10,7 +10,7 @@ let text = "*Lorem ipsum dollar*\n" +
     "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat";
 
 // Copy [image] tag
-let imageTag = text.match(/.*.*g\)/g);
+let imageTag = text.match(/.*.*g\)/);
 
 // Delete image tag
 var deleteImageTag = text.replace(/!\s*\[im[^>]*\](.*?)\s*g\)/g, "");
